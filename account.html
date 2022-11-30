@@ -8,10 +8,106 @@
     <title>Registration</title>
   </head>
   <body>
-    <h2>Register here</h2>
+    <form action="newsfeed.html">
+      <h2>Register here</h2>
+      <!-- for the whole container -->
+      <div id="container">
+        <!-- division for personal info only -->
+        <div id="personalInfo">
+          <h3>Personal Info</h3>
+          <label for="fName">Firstname: </label>
+          <input type="text" id="fName" name="fName" maxlength="10" required />
+          <br /><br />
+          <label for="lName">Lastname: </label>
+          <input type="text" id="lName" name="lName" maxlength="10" required />
+          <br /><br />
+          <label for="age">age: </label>
+          <input
+            type="number"
+            id="age"
+            name="
+          age"
+            min="0"
+            max="99"
+            required
+          />
+          <br /><br />
+          <label for="bday">Birthday: </label>
+          <input type="date" id="bday" name="bday" required />
+          <br /><br />
+          <label for="phoneNum">Phone Number: </label>
+          <input
+            type="tel"
+            id="phoneNum"
+            name="phoneNum"
+            placeholder="09123456789"
+          />
+          <br /><br />
+          <label for="radioBtn">Status: </label>
+          <br />
+          <label for="single">Single</label>
+          <input
+            type="radio"
+            id="single"
+            name="radioBtn"
+            maxlength="10"
+            required
+          />
+          <label for="Married">Married</label>
+          <input
+            type="radio"
+            id="Married"
+            name="radioBtn"
+            maxlength="10"
+            required
+          />
+          <label for="Widowed">Widowed</label>
+          <input
+            type="radio"
+            id="Widowed"
+            name="radioBtn"
+            maxlength="10"
+            required
+          />
+          <br /><br />
+          <label for="dropdown">dropdown: </label>
+          <select name="dropdown" id="dropdown">
+            <option value=" ">select here</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+          <br /><br />
+          <label for="checkBox">Check Box: </label>
+          <input type="checkbox" id="checkBox1" />1
+          <input type="checkbox" id="checkBox2" />2
+          <input type="checkbox" id="checkBox3" />3
+        </div>
+        <!-- container for the credentials -->
+        <h3>Log in Info</h3>
+        <div id="credentials">
+          <label for="uName">Username: </label>
+          <input type="text" id="uName" maxlength="20" required />
+          <br /><br />
+          <label for="email">Email: </label>
+          <input type="email" id="email" required />
+          <br /><br />
+          <label for="pWord">Password: </label>
+          <input type="password" id="pWord" maxlength="12" required />
+        </div>
 
-    <a href="https://www.google.com">
-      <button>Register</button>
-    </a>
+        <!-- for uploading file/picture -->
+        <div id="fileUpload">
+          <h3>Upload your profile picture here</h3>
+          <input type="file" id="pfp" name="pfp" accept="image/*" required />
+        </div>
+        <br /><br />
+        <!-- buttons -->
+        <div id="button">
+          <button type="submit" id="submitBtn">Submit</button>
+          <button type="reset" id="reset">reset</button>
+        </div>
+      </div>
+    </form>
   </body>
 </html>
