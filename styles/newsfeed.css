@@ -6,16 +6,18 @@ body {
 .flex-container {
   display: flex;
   justify-content: space-between;
-  height: 550px;
+  height: 615px;
 }
 .content-box {
+  height: 500px;
   border: 2px solid rgb(253, 248, 248);
-  width: 200px;
+  min-width: 100px;
   margin: 10px;
 }
+/* profile user bar */
 .left-side-bar {
-  height: 400px;
   flex: 0 2 300px;
+  height: 600px;
 }
 /* for the navigation bar */
 .navBar {
@@ -33,12 +35,21 @@ body {
   padding: 20px;
 }
 .homepage {
-  height: 300px;
+  overflow-x: auto;
+  height: 540px;
   flex: 5 0 400px;
   align-self: center;
-  margin-top: -10%;
+  margin-top: 40px;
 }
 .right-side-bar {
   height: 400px;
   flex: 0 2 300px;
+}
+.ads {
+  height: 170px;
+  flex: 0 2 300px;
+  align-self: flex-end;
+  overflow: hidden;
+  margin-left: -315px;
+  margin-right: 10px;
 }
