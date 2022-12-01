@@ -1,19 +1,43 @@
+body {
+  background-color: rgb(12, 29, 43);
+  color: aliceblue;
+}
+
 .flex-container {
   display: flex;
+  justify-content: space-between;
+  height: 550px;
 }
-.left-side-bar,
-.navBar,
-.homepage,
-.right-side-bar {
-  border: 1px solid black;
-  width: 100px;
-  height: 100px;
+.content-box {
+  border: 2px solid rgb(253, 248, 248);
+  width: 200px;
+  margin: 10px;
 }
 .left-side-bar {
+  height: 400px;
+  flex: 0 2 300px;
 }
 .navBar {
+  display: block;
+  height: 10px;
+}
+.navBar ul {
+  list-style: none;
+  border: none;
+  padding-left: 380px;
+  margin-left: 100px;
+}
+.navBar li {
+  display: inline-block;
+  padding: 20px;
 }
 .homepage {
+  height: 300px;
+  flex: 5 0 400px;
+  align-self: center;
+  margin-top: -10%;
 }
 .right-side-bar {
+  height: 400px;
+  flex: 0 2 300px;
 }
