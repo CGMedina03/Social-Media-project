@@ -17,6 +17,7 @@ body {
   height: 400px;
   flex: 0 2 300px;
 }
+/* for the navigation bar */
 .navBar {
   display: block;
   height: 10px;
