@@ -1,30 +1,41 @@
 body {
-  background: linear-gradient(135deg, #e19141, #b05631);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  background: linear-gradient(135deg, #e19141, #45c3ca);
   color: aliceblue;
 }
 
 form {
   width: 500px;
-  margin: 0 auto;
+  margin-left: 60%;
   border: 1px solid rgb(228, 205, 205);
   border-radius: 10px;
-  padding: 5px 0px 5px 90px;
   backdrop-filter: blur(10px);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
+h2 {
+  font-family: "Exo", sans-serif;
+}
+h3 {
+  padding: 0px 0px 0px 20px;
+  font-family: "Lora", serif;
+  font-weight: lighter;
+}
+.regContent {
+  padding: 5px 0px 5px 90px;
+}
+.header {
+  text-align: center;
+}
 a {
-  color: black;
+  color: #877335;
   text-decoration: none;
 }
 a:hover {
-  color: aliceblue;
+  color: #576a71;
   text-decoration: underline;
 }
-
-a:visited {
-  color: rgb(192, 241, 14);
+hr {
+  height: 2px;
+  background-color: #877335;
+  border-color: #576a71;
+  width: 450px;
 }

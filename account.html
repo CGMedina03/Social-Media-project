@@ -6,16 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/account.css" />
+    <!-- font styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <title>Registration</title>
   </head>
   <body>
     <form action="newsfeed.html">
       <!-- for the whole container -->
-
-      <h2>Register here</h2>
+      <div class="header">
+        <h2>Register here</h2>
+      </div>
+      <h3>Personal Info</h3>
       <!-- division for personal info only -->
-      <div class="personalInfo">
-        <h3>Personal Info</h3>
+      <div class="regContent personalInfo">
         <label for="fName">Firstname: </label>
         <input type="text" id="fName" name="fName" maxlength="10" required />
         <br /><br />
@@ -86,7 +100,7 @@
       </div>
       <!-- container for the credentials -->
       <h3>Log in Info</h3>
-      <div class="credentials">
+      <div class="regContent credentials">
         <label for="uName">Username: </label>
         <input type="text" id="uName" maxlength="20" required />
         <br /><br />
@@ -96,21 +110,21 @@
         <label for="pWord">Password: </label>
         <input type="password" id="pWord" maxlength="12" required />
       </div>
-
+      <h3>Profile Picture</h3>
       <!-- for uploading file/picture -->
-      <div class="fileUpload">
-        <h3>Upload your profile picture here</h3>
+      <div class="regContent fileUpload">
+        <h4>Upload your profile picture here</h4>
         <input type="file" id="pfp" name="pfp" accept="image/*" required />
       </div>
       <br /><br />
       <!-- buttons -->
-      <div class="button">
+      <div class="regContent button">
         <button type="submit" id="submitBtn">Submit</button>
         <button type="reset" id="reset">reset</button>
       </div>
-
+      <hr />
       <!-- log in page redirect -->
-      <div class="logInPage">
+      <div class="regContent logInPage">
         <p>
           Already have an account? Log in
           <a href="index.html" target="_blank">here!</a>
