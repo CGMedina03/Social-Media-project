@@ -1,0 +1,19 @@
+.flex-container {
+  display: flex;
+}
+.left-side-bar,
+.navBar,
+.homepage,
+.right-side-bar {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+}
+.left-side-bar {
+}
+.navBar {
+}
+.homepage {
+}
+.right-side-bar {
+}
