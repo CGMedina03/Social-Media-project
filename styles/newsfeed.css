@@ -2,54 +2,63 @@ body {
   background-color: rgb(12, 29, 43);
   color: aliceblue;
 }
-
+/* to align the contents */
 .flex-container {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
   height: 615px;
+  grid-template-columns: 250px 200px 250px;
+  grid-auto-rows: minmax(150px, auto);
+  grid-template-areas:
+    "sidebar header content"
+    "sidebar timeline ads";
+  grid-gap: 20px;
+  justify-content: space-between;
 }
+
 .content-box {
-  height: 500px;
-  border: 2px solid rgb(253, 248, 248);
-  min-width: 100px;
-  margin: 10px;
+  border: 1px solid wheat;
 }
-/* profile user bar */
-.left-side-bar {
-  flex: 0 2 300px;
-  height: 600px;
-}
-/* for the navigation bar */
+/* design for the navigation bar */
 .navBar {
+  border: none;
+  justify-self: center;
+  width: 500px;
   display: block;
-  height: 10px;
+  height: 50px;
+  grid-area: header;
 }
 .navBar ul {
+  margin-left: -25px;
+  margin-top: -5px;
+  text-align: center;
   list-style: none;
   border: none;
-  padding-left: 380px;
-  margin-left: 100px;
 }
 .navBar li {
   display: inline-block;
   padding: 20px;
 }
-.homepage {
-  overflow-x: auto;
-  height: 540px;
-  flex: 5 0 400px;
-  align-self: center;
-  margin-top: 40px;
+/* for the content of the page */
+.left-side-bar {
+  height: 613px;
+  grid-area: sidebar;
 }
 .right-side-bar {
   height: 400px;
-  flex: 0 2 300px;
+  grid-area: content;
+}
+.homepage {
+  max-height: 550px;
+  width: 800px;
+  margin-left: -300px;
+  margin-top: -250px;
+  grid-area: timeline;
+  overflow-y: auto;
 }
 .ads {
-  height: 170px;
-  flex: 0 2 300px;
-  align-self: flex-end;
+  max-height: 200px;
+  margin-top: 100px;
+  height: 200px;
+  grid-area: ads;
   overflow: hidden;
-  margin-left: -315px;
-  margin-right: 10px;
 }
