@@ -33,8 +33,7 @@ body {
   border-radius: 100px;
   border: 2px solid whitesmoke;
 }
-span {
-}
+
 .child-3 {
   position: absolute;
   top: 225px;
@@ -51,7 +50,13 @@ span {
     "joined joined"
     "birthdate birthdate";
 }
+/* new change */
 .username {
+  font-size: 20px;
+  font-weight: bold;
+}
+/* new change */
+.at_username {
   color: blue;
   grid-area: username;
 }
@@ -98,19 +103,29 @@ b {
   padding-left: 10px;
   border-bottom: 1px solid black;
 }
+/* new change */
 .username-in-timeline {
   display: grid;
   position: relative;
   padding-left: 10px;
 }
+/* new change */
+.username_At {
+  text-align: center;
+  font-size: 10px;
+  color: blue;
+}
+/* new change */
 .align-username {
   position: absolute;
   left: 60px;
+  top: 10px;
 }
-.option {
+/* new change */
+.fa-ellipsis {
   width: 20px;
   position: relative;
-  left: 590px;
+  left: 560px;
 }
 .align-username .username_At {
   position: absolute;
@@ -120,18 +135,20 @@ b {
 .hours {
   font-weight: bolder;
   position: absolute;
-  left: 900px;
+  left: 950px;
 }
 .extra-button {
   display: flex;
   list-style: none;
   gap: 200px;
 }
+/* remove 
 .button {
   width: 20px;
-}
+} */
 .post-picture {
   border-radius: 10px;
+  border: 1px solid black;
 }
 
 .parent-3 {
