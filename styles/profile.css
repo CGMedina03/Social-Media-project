@@ -33,12 +33,12 @@ body {
   border-radius: 100px;
   border: 2px solid whitesmoke;
 }
+span {
+}
 .child-3 {
   position: absolute;
-  min-width: stretch;
-  max-width: 100%;
   top: 225px;
-  left: 10px;
+  left: 40px;
   display: grid;
   height: 250px;
   grid-gap: 20px;
@@ -47,13 +47,20 @@ body {
   grid-template-areas:
     "username username"
     "following followers"
-    "bio followers"
-    "status followers"
-    "joined followers"
-    "birthdate followers";
+    "bio bio" "status status"
+    "joined joined"
+    "birthdate birthdate";
 }
 .username {
+  color: blue;
   grid-area: username;
+}
+.following {
+}
+.followers {
+}
+b {
+  font-size: 20px;
 }
 .bio {
   grid-area: bio;
@@ -70,14 +77,7 @@ body {
 }
 .sidebar-content {
 }
-/*  
-ul {
-  display: grid;
-  
-  grid-template-areas:
-    "header header"
-    "following followers";
-}*/
+
 .childe-3-sidebar {
   width: 150px;
   list-style: none;
