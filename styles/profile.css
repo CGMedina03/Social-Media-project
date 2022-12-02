@@ -187,12 +187,28 @@ form input {
   border-radius: 5px;
   margin-top: 5px;
 }
-tr {
+.trends {
+  padding: 5px;
+  text-align: start;
+  border-bottom: 1px solid black;
+  border-radius: 50px;
+}
+.trends-for-you {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+.more-trend {
+  position: relative;
+  left: 78px;
   border: 1px solid black;
+  text-align: center;
+  width: 100px;
+  border-radius: 5px;
 }
 /* parent 4 */
 .parent-4 {
-  border: 1px solid brown;
+  box-shadow: 4px 10px 10px grey;
   margin-top: -450px;
   height: 300px;
 }
