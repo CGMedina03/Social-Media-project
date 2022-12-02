@@ -35,17 +35,53 @@ body {
 }
 .child-3 {
   position: absolute;
-  width: stretch;
   min-width: stretch;
   max-width: 100%;
-  top: 210px;
-  left: -40px;
+  top: 225px;
+  left: 10px;
   display: grid;
-  grid-template-columns: 200px 200px;
+  height: 250px;
+  grid-gap: 20px;
+  justify-content: space-between;
+  grid-template-columns: 100px 100px;
+  grid-template-areas:
+    "username username"
+    "following followers"
+    "bio followers"
+    "status followers"
+    "joined followers"
+    "birthdate followers";
+}
+.username {
+  grid-area: username;
+}
+.bio {
+  grid-area: bio;
+}
+.status {
+  grid-area: status;
 }
 
+.joined {
+  grid-area: joined;
+}
+.birthdate {
+  grid-area: birthdate;
+}
+.sidebar-content {
+}
+/*  
+ul {
+  display: grid;
+  
+  grid-template-areas:
+    "header header"
+    "following followers";
+}*/
 .childe-3-sidebar {
+  width: 150px;
   list-style: none;
+  border: 1px solid black;
 }
 
 .parent-2 {
