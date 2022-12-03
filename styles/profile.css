@@ -95,10 +95,14 @@ b {
 }
 
 .timeline-navBar {
-  background-color: #f19c33;
   border-radius: 5px;
   width: 800px;
   height: 30px;
+  transition: transform 200ms;
+}
+/* for the animation */
+.timeline-navBar:hover {
+  transform: scale(1.1);
 }
 .timeline-rows {
   padding-top: 20px;
