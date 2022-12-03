@@ -38,8 +38,8 @@ body {
 
 .child-3 {
   position: absolute;
-  top: 225px;
-  left: 40px;
+  top: 120px;
+  left: 10px;
   display: grid;
   height: 250px;
   grid-gap: 20px;
