@@ -1,6 +1,6 @@
 body {
-  background-color: rgb(12, 29, 43);
-  color: aliceblue;
+  background-color: rgb(237, 213, 181);
+  color: black;
 }
 /* to align the contents */
 .flex-container {
@@ -17,9 +17,38 @@ body {
 p {
   padding-left: 10px;
 }
-
-.content-box {
-  border: 1px solid wheat;
+.child-1 {
+  position: relative;
+}
+.firstPic {
+  position: relative;
+  border: 1px solid black;
+  border-radius: 100px;
+  left: 10px;
+}
+.secondPic {
+  position: absolute;
+  left: 200px;
+  border-radius: 100px;
+  border: 1px solid rgb(249, 12, 170);
+}
+.at_Username {
+  position: absolute;
+  top: 90px;
+  left: 15px;
+}
+.child-2 {
+  position: fixed;
+}
+.profile-option {
+  list-style: none;
+  margin-left: -30px;
+}
+.profile-option li {
+  padding-bottom: 10px;
+}
+.seeMore {
+  text-align: center;
 }
 /* design for the navigation bar */
 .navBar {
@@ -43,12 +72,40 @@ p {
 }
 /* for the content of the page */
 .left-side-bar {
+  position: relative;
   height: 613px;
   grid-area: sidebar;
+}
+.username_Profile {
+  position: absolute;
+  left: 100px;
+  top: 50px;
 }
 .right-side-bar {
   height: 400px;
   grid-area: content;
+  position: relative;
+}
+.friends {
+  position: absolute;
+}
+table {
+  width: 220px;
+  border: 1px solid black;
+}
+.userName {
+  margin-top: 10px;
+}
+span {
+  position: absolute;
+  left: 60px;
+}
+.username_At {
+  color: blue;
+  font-size: 10px;
+  position: relative;
+  left: 5px;
+  top: -10px;
 }
 .homepage {
   max-height: 550px;
@@ -59,9 +116,10 @@ p {
   overflow-y: auto;
 }
 .ads {
-  max-height: 200px;
-  margin-top: 100px;
-  height: 200px;
-  grid-area: ads;
-  overflow: hidden;
+  margin-top: 400px;
+  position: absolute;
+  height: 100px;
+  width: 250px;
+  text-align: center;
+  font-size: 50px;
 }
