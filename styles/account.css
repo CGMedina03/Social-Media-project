@@ -2,10 +2,13 @@ body {
   background: linear-gradient(135deg, #e19141, #45c3ca);
   color: aliceblue;
 }
-
+.form-container {
+  display: flex;
+  justify-content: center;
+}
 form {
   width: 500px;
-  margin-left: 60%;
+  justify-items: center;
   border: 1px solid rgb(228, 205, 205);
   border-radius: 10px;
   backdrop-filter: blur(10px);
