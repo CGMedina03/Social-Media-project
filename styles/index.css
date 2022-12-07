@@ -8,10 +8,15 @@ body {
 .parent {
   display: flex;
   justify-content: space-around;
-  align-content: center;
-  height: 600px;
+  align-items: center;
+  height: 630px;
+  flex-wrap: wrap;
 }
-
+.title {
+  border: 1px solid wheat;
+  width: 100px;
+  background-color: #f0eecd;
+}
 .child-1 {
   width: 300px;
   text-align: justify;
