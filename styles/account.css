@@ -1,22 +1,26 @@
 body {
-  background: linear-gradient(135deg, #e19141, #45c3ca);
-  color: aliceblue;
+  background-image: url();
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #f0eecd;
 }
 .form-container {
   display: flex;
   justify-content: center;
 }
 form {
+  background-image: url(/extra-assets/retrorainbow_clipdrop-enhance.jpg);
+  background-position: center;
+  background-size: cover;
   width: 500px;
   justify-items: center;
-  border: 1px solid rgb(228, 205, 205);
+  border: 1px solid #576a71;
   border-radius: 10px;
-  backdrop-filter: blur(10px);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+  box-shadow: 0 0 20px #584632;
 }
-h2 {
-  font-family: "Exo", sans-serif;
-}
+
 h3 {
   padding: 0px 0px 0px 20px;
   font-family: "Lora", serif;
@@ -29,7 +33,7 @@ h3 {
   text-align: center;
 }
 a {
-  color: #877335;
+  color: #f19c33;
   text-decoration: none;
 }
 a:hover {
@@ -37,8 +41,6 @@ a:hover {
   text-decoration: underline;
 }
 hr {
-  height: 2px;
-  background-color: #877335;
   border-color: #576a71;
   width: 450px;
 }
