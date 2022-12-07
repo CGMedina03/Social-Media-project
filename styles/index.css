@@ -1,0 +1,35 @@
+body {
+  background: rgb(0, 0, 0, 0.7) url(/extra-assets/pexels-pixabay-247929.jpg);
+  background-blend-mode: darken;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.parent {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  height: 600px;
+}
+
+.child-1 {
+  width: 300px;
+  text-align: justify;
+  padding: 50px;
+  background-color: #f0eecd;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.child-2 {
+  text-align: justify;
+  font-size: 20px;
+  color: aliceblue;
+  border: 1px solid #f19c33;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  padding: 50px;
+}
+a {
+  color: #f19c33;
+  text-decoration: none;
+}
