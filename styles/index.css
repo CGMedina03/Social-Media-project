@@ -30,6 +30,9 @@ body {
   backdrop-filter: blur(10px);
   padding: 50px;
 }
+hr {
+  border-color: #f0eecd;
+}
 a {
   color: #f19c33;
   text-decoration: none;
