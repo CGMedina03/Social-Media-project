@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/index.css" />
+    <link rel="icon" href="extra-assets/icons8-log-in-64.png" type="image" />
     <title>Log in</title>
   </head>
   <body>
@@ -15,18 +16,21 @@
           There's a different between doing things right and doing the right
           thing.
         </p>
-        <article>by: <i>Chriss Fussel</i></article>
+        <span>
+          <i>- Chriss Fussel</i>
+        </span>
       </div>
       <div class="child-2">
         <form action="newsfeed.html">
           <div>
-            <label for="uName">Username/Email: </label>
+            <label for="uName">Email: </label>
             <input
-              type="text"
+              type="email"
               id="uName"
               maxlength="20"
               name="uName"
               required
+              placeholder="Enter your email"
             />
             <br /><br />
 
@@ -37,6 +41,7 @@
               name="pWord"
               maxlength="12"
               required
+              placeholder="Enter your password"
             />
             <br /><br />
             <input type="submit" href="newsfeed.html" />
