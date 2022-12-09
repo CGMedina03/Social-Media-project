@@ -176,9 +176,10 @@ h3 {
 }
 #pfp {
 }
-.button {
+.button-page2 {
   position: absolute;
-  bottom: 100px;
+  top: 300px;
+  left: 360px;
 }
 #backPage2 {
   width: 35px;
@@ -224,6 +225,7 @@ h3 {
 .button {
   position: absolute;
   top: 450px;
+  left: 400px;
 }
 #submitBtn {
   width: 80px;
