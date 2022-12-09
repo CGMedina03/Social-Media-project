@@ -1,23 +1,64 @@
 body {
   color: #000000;
+  display: flex;
+  justify-content: center;
 }
 
 form {
   position: relative;
-  padding-left: 100px;
-  display: grid;
-  justify-self: center;
+  width: 700px;
+  padding: 20px;
   border: 1px solid black;
 }
-.fname {
+.fName {
   position: absolute;
 }
 .lName {
   position: absolute;
-  left: 400px;
-  top: 100px;
+  left: 350px;
+  top: 129px;
 }
-
+.input-Name {
+  width: 300px;
+  height: 30px;
+  position: relative;
+  top: 30px;
+  left: -75px;
+}
+.bday {
+  position: relative;
+  top: -30px;
+}
+.age {
+  position: relative;
+  left: 340px;
+  top: -65px;
+}
+#bday {
+  width: 300px;
+  height: 30px;
+  position: relative;
+  top: 30px;
+  left: -65px;
+}
+#age {
+  width: 40px;
+  height: 30px;
+  position: relative;
+  top: 30px;
+  left: -40px;
+}
+.phoneNum {
+  position: relative;
+  top: -50px;
+}
+#phoneNum {
+  width: 300px;
+  height: 30px;
+  position: relative;
+  top: 30px;
+  left: -105px;
+}
 h3 {
   padding: 0px 0px 0px 20px;
   font-family: "Lora", serif;

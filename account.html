@@ -31,34 +31,50 @@
       <div class="regContent personalInfo">
         <div class="fName">
           <label for="fName">Firstname: </label>
-          <input type="text" id="fName" name="fName" maxlength="10" required />
+          <input
+            type="text"
+            id="fName"
+            name="fName"
+            maxlength="10"
+            class="input-Name"
+            required
+          />
         </div>
 
         <br /><br />
         <div class="lName">
           <label for="lName">Lastname: </label>
-          <input type="text" id="lName" name="lName" maxlength="10" required />
+          <input
+            type="text"
+            id="lName"
+            name="lName"
+            maxlength="10"
+            class="input-Name"
+            required
+          />
         </div>
 
         <br /><br />
+
+        <br /><br />
+        <div class="bday">
+          <label for="bday">Birthday: </label>
+          <input type="date" id="bday" name="bday" required />
+        </div>
         <div class="age">
           <label for="age">age: </label>
           <input
             type="number"
             id="age"
             name="
-            age"
+              age"
             min="0"
             max="99"
             required
           />
         </div>
-
         <br /><br />
-        <div class="bday">
-          <label for="bday">Birthday: </label>
-          <input type="date" id="bday" name="bday" required />
-          <br /><br />
+        <div class="phoneNum">
           <label for="phoneNum">Phone Number: </label>
           <input
             type="tel"
