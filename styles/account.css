@@ -1,13 +1,5 @@
 body {
-  background-image: url();
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  color: #f0eecd;
-}
-.form-container {
-  display: flex;
-  justify-content: center;
+  color: #000000;
 }
 
 form {
@@ -31,9 +23,7 @@ h3 {
   font-family: "Lora", serif;
   font-weight: lighter;
 }
-.regContent {
-  padding: 5px 0px 5px 90px;
-}
+
 .header {
   text-align: center;
 }
