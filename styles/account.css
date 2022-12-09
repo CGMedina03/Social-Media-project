@@ -5,7 +5,7 @@ body {
   margin-top: 50px;
 }
 
-form {
+.regForm1 {
   position: relative;
   width: 650px;
   height: 550px;
@@ -23,6 +23,7 @@ form {
   top: 108px;
 }
 .input-Name {
+  padding-left: 10px;
   width: 300px;
   height: 30px;
   position: absolute;
@@ -45,6 +46,7 @@ form {
   position: absolute;
   top: 30px;
   left: 0px;
+  padding-left: 10px;
 }
 #age {
   width: 40px;
@@ -52,6 +54,7 @@ form {
   position: absolute;
   top: 30px;
   left: 0px;
+  padding-left: 10px;
 }
 .phoneNum {
   position: absolute;
@@ -64,6 +67,7 @@ form {
   position: absolute;
   top: 30px;
   left: 0px;
+  padding-left: 10px;
 }
 h3 {
   padding: 0px 0px 0px 20px;
@@ -111,15 +115,35 @@ hr {
   width: 630px;
 }
 /* second page of the registration form */
+.regForm2 {
+  position: relative;
+  width: 650px;
+  height: 550px;
+  padding-left: 15px;
+  border: 1px solid black;
+}
 .uName {
   position: absolute;
 }
+#uName {
+  position: absolute;
+  top: 10px;
+}
 .email {
+  position: absolute;
+}
+#email {
   position: absolute;
 }
 .pWord {
   position: absolute;
 }
+#pWord {
+  position: absolute;
+}
 .fileUplaod {
+  position: absolute;
+}
+#pfp {
   position: absolute;
 }
