@@ -23,109 +23,123 @@
   </head>
   <body>
     <form>
-      <div class="header">
-        <h2>Register here</h2>
-      </div>
-      <h3>Personal Info</h3>
-      <!-- division for personal info only -->
-      <div class="regContent personalInfo">
-        <div class="fName">
-          <label for="fName">Firstname: </label>
-          <input type="text" id="fName" name="fName" maxlength="10" required />
+      <div class="form-container">
+        <div class="header">
+          <h2>Register here</h2>
         </div>
+        <h3>Personal Info</h3>
+        <!-- division for personal info only -->
+        <div class="regContent personalInfo">
+          <div class="fName">
+            <label for="fName">Firstname: </label>
+            <input
+              type="text"
+              id="fName"
+              name="fName"
+              maxlength="10"
+              required
+            />
+          </div>
 
-        <br /><br />
-        <div class="lName">
-          <label for="lName">Lastname: </label>
-          <input type="text" id="lName" name="lName" maxlength="10" required />
-        </div>
+          <br /><br />
+          <div class="lName">
+            <label for="lName">Lastname: </label>
+            <input
+              type="text"
+              id="lName"
+              name="lName"
+              maxlength="10"
+              required
+            />
+          </div>
 
-        <br /><br />
-        <div class="age">
-          <label for="age">age: </label>
-          <input
-            type="number"
-            id="age"
-            name="
+          <br /><br />
+          <div class="age">
+            <label for="age">age: </label>
+            <input
+              type="number"
+              id="age"
+              name="
             age"
-            min="0"
-            max="99"
-            required
-          />
-        </div>
+              min="0"
+              max="99"
+              required
+            />
+          </div>
 
-        <br /><br />
-        <div class="bday">
-          <label for="bday">Birthday: </label>
-          <input type="date" id="bday" name="bday" required />
           <br /><br />
-          <label for="phoneNum">Phone Number: </label>
-          <input
-            type="tel"
-            id="phoneNum"
-            name="phoneNum"
-            placeholder="09123456789"
-          />
-        </div>
+          <div class="bday">
+            <label for="bday">Birthday: </label>
+            <input type="date" id="bday" name="bday" required />
+            <br /><br />
+            <label for="phoneNum">Phone Number: </label>
+            <input
+              type="tel"
+              id="phoneNum"
+              name="phoneNum"
+              placeholder="09123456789"
+            />
+          </div>
 
-        <br /><br />
-        <div class="status">
-          <label for="radioBtn">Status: </label>
-          <br />
-          <label for="single">Single</label>
-          <input
-            type="radio"
-            id="single"
-            name="radioBtn"
-            maxlength="10"
-            required
-          />
-          <label for="Married">Married</label>
-          <input
-            type="radio"
-            id="Married"
-            name="radioBtn"
-            maxlength="10"
-            required
-          />
-          <label for="Widowed">Widowed</label>
-          <input
-            type="radio"
-            id="Widowed"
-            name="radioBtn"
-            maxlength="10"
-            required
-          />
-        </div>
-
-        <br /><br />
-        <div class="dropdown">
-          <label for="dropdown">dropdown: </label>
-          <select name="dropdown" id="dropdown">
-            <option value=" ">select here</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-          </select>
-        </div>
-        <div class="checkbox">
           <br /><br />
-          <label for="checkBox">Check Box: </label>
-          <input type="checkbox" id="checkBox1" />1
-          <input type="checkbox" id="checkBox2" />2
-          <input type="checkbox" id="checkBox3" />3
+          <div class="status">
+            <label for="radioBtn">Status: </label>
+            <br />
+            <label for="single">Single</label>
+            <input
+              type="radio"
+              id="single"
+              name="radioBtn"
+              maxlength="10"
+              required
+            />
+            <label for="Married">Married</label>
+            <input
+              type="radio"
+              id="Married"
+              name="radioBtn"
+              maxlength="10"
+              required
+            />
+            <label for="Widowed">Widowed</label>
+            <input
+              type="radio"
+              id="Widowed"
+              name="radioBtn"
+              maxlength="10"
+              required
+            />
+          </div>
+
+          <br /><br />
+          <div class="dropdown">
+            <label for="dropdown">dropdown: </label>
+            <select name="dropdown" id="dropdown">
+              <option value=" ">select here</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+          <div class="checkbox">
+            <br /><br />
+            <label for="checkBox">Check Box: </label>
+            <input type="checkbox" id="checkBox1" />1
+            <input type="checkbox" id="checkBox2" />2
+            <input type="checkbox" id="checkBox3" />3
+          </div>
         </div>
-      </div>
 
-      <br /><br />
+        <br /><br />
 
-      <hr />
-      <!-- log in page redirect -->
-      <div class="regContent logInPage">
-        <p>
-          Already have an account? Log in
-          <a href="index.html">here!</a>
-        </p>
+        <hr />
+        <!-- log in page redirect -->
+        <div class="regContent logInPage">
+          <p>
+            Already have an account? Log in
+            <a href="index.html">here!</a>
+          </p>
+        </div>
       </div>
     </form>
   </body>

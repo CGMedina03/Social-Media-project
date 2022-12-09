@@ -1,21 +1,18 @@
 body {
   color: #000000;
 }
-
 form {
-  position: relative;
-  padding-left: 100px;
-  display: grid;
+  border: 1px solid rgb(222, 8, 8);
   justify-self: center;
-  border: 1px solid black;
 }
+.form-container {
+  border: 1px solid black;
+  position: relative;
+}
+
 .fname {
-  position: absolute;
 }
 .lName {
-  position: absolute;
-  left: 400px;
-  top: 100px;
 }
 
 h3 {
