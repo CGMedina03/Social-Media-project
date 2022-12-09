@@ -4,35 +4,57 @@ body {
   justify-content: center;
   margin-top: 50px;
 }
-
+/* first page of the registration form */
 .regForm1 {
   position: relative;
   width: 650px;
   height: 550px;
   padding-left: 15px;
   border: 1px solid black;
+  border-radius: 10px;
 }
-/* first page of the registration form */
 .fName {
   position: absolute;
   left: 30px;
 }
-.lName {
-  position: absolute;
-  left: 350px;
-  top: 110px;
+input {
+  border-radius: 5px;
 }
-.input-Name {
+.input-fName {
   padding-left: 5px;
-  width: 300px;
+  width: 150px;
   height: 30px;
   position: absolute;
   top: 30px;
   left: 0px;
 }
-#lName {
-  width: 280px;
+.mName {
+  position: absolute;
+  top: 110px;
+  left: 200px;
 }
+.input-mName {
+  padding-left: 5px;
+  width: 150px;
+  height: 30px;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+}
+.lName {
+  position: absolute;
+  left: 370px;
+  top: 110px;
+}
+.input-lName {
+  padding-left: 5px;
+  width: 250px;
+  height: 30px;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+}
+
 .bday {
   position: absolute;
   top: 190px;
@@ -40,7 +62,7 @@ body {
 }
 .age {
   position: absolute;
-  left: 355px;
+  left: 360px;
   top: 190px;
 }
 #bday {
@@ -77,26 +99,28 @@ h3 {
   font-family: "Lora", serif;
   font-weight: lighter;
 }
-.status {
+.gender {
   position: absolute;
-  top: 350px;
+  top: 370px;
   left: 30px;
 }
-.dropdown {
+#gender-title {
   position: absolute;
-  top: 390px;
-  left: 30px;
-  overflow-x: hidden;
+  top: -25px;
 }
-#dropdown {
+.yearlevel {
+  position: absolute;
+  top: 430px;
+  left: 30px;
+}
+#yearlevel {
   width: 200px;
   border: 1px solid black;
   border-radius: 10px;
 }
-.checkbox {
+#yrLvl {
   position: absolute;
-  top: 390px;
-  left: 30px;
+  top: -25px;
 }
 .logInPage {
   position: absolute;
@@ -125,7 +149,6 @@ hr {
 }
 /* second page of the registration form */
 .regForm2 {
-  /* position: relative; */
   display: grid;
   margin-top: 100px;
   justify-content: center;
@@ -138,30 +161,39 @@ hr {
     "email pWord"
     "pfp pfp";
   width: 500px;
-  height: 350px;
+  height: 380px;
   border: 1px solid black;
 }
 h3 {
   text-align: center;
   width: 350px;
+  height: 30px;
   font-weight: bolder;
 }
 .uName {
   position: absolute;
-  top: 60px;
+  top: 70px;
   grid-area: uName;
 }
 #uName {
+  padding-left: 5px;
+  width: 250px;
+  height: 30px;
+  position: absolute;
+  top: -10px;
+  left: 80px;
 }
 .email {
   position: absolute;
   top: -20px;
   grid-area: email;
 }
-#email,
-#pWord {
+#email {
+  padding-left: 5px;
+  width: 150px;
+  height: 30px;
   position: absolute;
-  top: 30px;
+  top: 25px;
   left: 0px;
 }
 .pWord {
@@ -169,17 +201,34 @@ h3 {
   top: -20px;
   grid-area: pWord;
 }
+#pWord {
+  padding-left: 5px;
+  width: 150px;
+  height: 30px;
+  position: absolute;
+  top: 25px;
+  left: 0px;
+}
 .fileUpload {
   position: absolute;
   grid-area: pfp;
-  top: -140px;
+  top: -120px;
 }
 #pfp {
+  position: absolute;
+  top: 70px;
+}
+#hr2 {
+  position: absolute;
+  top: 320px;
+  left: 30px;
+  border-color: #576a71;
+  width: 90%;
 }
 .button-page2 {
   position: absolute;
-  top: 300px;
-  left: 360px;
+  top: 337px;
+  left: 400px;
 }
 #backPage2 {
   width: 35px;
@@ -189,19 +238,12 @@ h3 {
   width: 35px;
   height: 35px;
 }
-#hr2 {
-  position: absolute;
-  top: 80%;
-  left: 30px;
-  border-color: #576a71;
-  width: 90%;
-}
 /* third page of the reg form */
 .termsAndCond {
   display: grid;
   position: relative;
   border: 1px solid black;
-  width: 500px;
+  width: 600px;
   height: 500px;
 }
 .h2 {
@@ -213,8 +255,9 @@ h3 {
 .p {
   position: absolute;
   top: 50px;
-  padding: 10px;
-  font-size: 2em;
+  padding: 10px 20px 0px 20px;
+  font-size: 1.2em;
+  text-align: justify;
 }
 .box {
   position: absolute;
@@ -222,10 +265,17 @@ h3 {
   font-size: large;
   padding: 10px;
 }
+
 .button {
   position: absolute;
   top: 450px;
   left: 400px;
+}
+#hr4 {
+  position: absolute;
+  top: 390px;
+  left: 54px;
+  width: 490px;
 }
 #submitBtn {
   width: 80px;

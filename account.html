@@ -25,26 +25,38 @@
       <!-- division for personal info only -->
       <div class="regContent personalInfo">
         <div class="fName">
-          <label for="fName">Firstname: </label>
+          <label for="fName">Firstname</label>
           <input
             type="text"
             id="fName"
             name="fName"
             maxlength="30"
-            class="input-Name"
+            class="input-fName"
+            placeholder="Juan"
             required
           />
         </div>
-
-        <br /><br />
+        <div class="mName">
+          <label for="mName">Middle name</label>
+          <input
+            type="text"
+            id="mName"
+            name="mName"
+            maxlength="30"
+            class="input-mName"
+            placeholder="Alfonso"
+            required
+          />
+        </div>
         <div class="lName">
-          <label for="lName">Lastname: </label>
+          <label for="lName">Lastname</label>
           <input
             type="text"
             id="lName"
             name="lName"
             maxlength="30"
-            class="input-Name"
+            class="input-lName"
+            placeholder="dela Cruz"
             required
           />
         </div>
@@ -53,11 +65,11 @@
 
         <br /><br />
         <div class="bday">
-          <label for="bday">Birthday: </label>
+          <label for="bday">Birthday</label>
           <input type="date" id="bday" name="bday" required />
         </div>
         <div class="age">
-          <label for="age">age: </label>
+          <label for="age">Age</label>
           <input
             type="number"
             id="age"
@@ -70,7 +82,7 @@
         </div>
         <br /><br />
         <div class="phoneNum">
-          <label for="phoneNum">Phone Number: </label>
+          <label for="phoneNum">Phone Number</label>
           <input
             type="tel"
             id="phoneNum"
@@ -78,51 +90,44 @@
             placeholder="09123456789"
           />
         </div>
-
         <br /><br />
-        <div class="status">
-          <label for="radioBtn">Status: </label>
-          <label for="single">Single</label>
+        <div class="gender">
+          <label for="radioBtn" id="gender-title">Gender</label>
           <input
             type="radio"
-            id="single"
+            id="Male"
             name="radioBtn"
-            maxlength="10"
+            class="status-option"
             required
           />
-          <label for="Married">Married</label>
+          <label for="Male">Male</label>
           <input
             type="radio"
-            id="Married"
+            id="Female"
+            class="status-option"
             name="radioBtn"
-            maxlength="10"
             required
-          />
-          <label for="Widowed">Widowed</label>
+          /><label for="Female">Female</label>
+
           <input
             type="radio"
-            id="Widowed"
+            class="status-option"
+            id="Prefer not to say"
             name="radioBtn"
-            maxlength="10"
             required
           />
+          <label for="Prefer not to say">Prefer not to say</label>
         </div>
-
         <br /><br />
-        <div class="dropdown">
-          <label for="dropdown">numbers: </label>
-          <select name="dropdown" id="dropdown">
-            <option value="1">select here</option>
-            <option value="1">Lorem ipsum dolor sit amet.</option>
-            <option value="1">Lorem ipsum dolor sit amet.</option>
+        <div class="yearlevel">
+          <label for="yearlevel" id="yrLvl">Year level</label>
+          <select name="yearlevel" id="yearlevel">
+            <option value="1">Select your year level</option>
+            <option value="1">Year level 1</option>
+            <option value="2">Year level 2</option>
+            <option value="3">Year level 3</option>
+            <option value="4">Year level 4</option>
           </select>
-        </div>
-        <div class="checkbox">
-          <br /><br />
-          <label for="checkBox">Check Box: </label>
-          <input type="checkbox" id="checkBox1" />1
-          <input type="checkbox" id="checkBox2" />2
-          <input type="checkbox" id="checkBox3" />3
         </div>
       </div>
 
