@@ -30,6 +30,9 @@ body {
   top: 30px;
   left: 0px;
 }
+#lName {
+  width: 280px;
+}
 .bday {
   position: absolute;
   top: 190px;
@@ -140,7 +143,7 @@ hr {
 }
 h3 {
   text-align: center;
-  padding-left: 100px;
+  width: 350px;
   font-weight: bolder;
 }
 .uName {
@@ -149,8 +152,6 @@ h3 {
   grid-area: uName;
 }
 #uName {
-  /* position: absolute;
-  top: 10px; */
 }
 .email {
   position: absolute;
@@ -177,8 +178,7 @@ h3 {
 }
 .button {
   position: absolute;
-  top: 300px;
-  left: 400px;
+  bottom: 100px;
 }
 #backPage2 {
   width: 35px;
@@ -187,4 +187,45 @@ h3 {
 #nextPage2 {
   width: 35px;
   height: 35px;
+}
+#hr2 {
+  position: absolute;
+  top: 80%;
+  left: 30px;
+  border-color: #576a71;
+  width: 90%;
+}
+/* third page of the reg form */
+.termsAndCond {
+  display: grid;
+  position: relative;
+  border: 1px solid black;
+  width: 500px;
+  height: 500px;
+}
+.h2 {
+  text-align: center;
+}
+#hr3 {
+  width: 490px;
+}
+.p {
+  position: absolute;
+  top: 50px;
+  padding: 10px;
+  font-size: 2em;
+}
+.box {
+  position: absolute;
+  top: 400px;
+  font-size: large;
+  padding: 10px;
+}
+.button {
+  position: absolute;
+  top: 450px;
+}
+#submitBtn {
+  width: 80px;
+  height: 40px;
 }
