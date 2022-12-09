@@ -22,32 +22,40 @@
     <title>Registration</title>
   </head>
   <body>
-    <div class="form-container">
-      <form action="newsfeed.html">
-        <!-- for the whole container -->
-        <div class="header">
-          <h2>Register here</h2>
-        </div>
-        <h3>Personal Info</h3>
-        <!-- division for personal info only -->
-        <div class="regContent personalInfo">
+    <form>
+      <div class="header">
+        <h2>Register here</h2>
+      </div>
+      <h3>Personal Info</h3>
+      <!-- division for personal info only -->
+      <div class="regContent personalInfo">
+        <div class="fName">
           <label for="fName">Firstname: </label>
           <input type="text" id="fName" name="fName" maxlength="10" required />
-          <br /><br />
+        </div>
+
+        <br /><br />
+        <div class="lName">
           <label for="lName">Lastname: </label>
           <input type="text" id="lName" name="lName" maxlength="10" required />
-          <br /><br />
+        </div>
+
+        <br /><br />
+        <div class="age">
           <label for="age">age: </label>
           <input
             type="number"
             id="age"
             name="
-          age"
+            age"
             min="0"
             max="99"
             required
           />
-          <br /><br />
+        </div>
+
+        <br /><br />
+        <div class="bday">
           <label for="bday">Birthday: </label>
           <input type="date" id="bday" name="bday" required />
           <br /><br />
@@ -58,7 +66,10 @@
             name="phoneNum"
             placeholder="09123456789"
           />
-          <br /><br />
+        </div>
+
+        <br /><br />
+        <div class="status">
           <label for="radioBtn">Status: </label>
           <br />
           <label for="single">Single</label>
@@ -85,7 +96,10 @@
             maxlength="10"
             required
           />
-          <br /><br />
+        </div>
+
+        <br /><br />
+        <div class="dropdown">
           <label for="dropdown">dropdown: </label>
           <select name="dropdown" id="dropdown">
             <option value=" ">select here</option>
@@ -93,45 +107,26 @@
             <option value="2">2</option>
             <option value="3">3</option>
           </select>
+        </div>
+        <div class="checkbox">
           <br /><br />
           <label for="checkBox">Check Box: </label>
           <input type="checkbox" id="checkBox1" />1
           <input type="checkbox" id="checkBox2" />2
           <input type="checkbox" id="checkBox3" />3
         </div>
-        <!-- container for the credentials -->
-        <h3>Log in Info</h3>
-        <div class="regContent credentials">
-          <label for="uName">Username: </label>
-          <input type="text" id="uName" maxlength="20" required />
-          <br /><br />
-          <label for="email">Email: </label>
-          <input type="email" id="email" required />
-          <br /><br />
-          <label for="pWord">Password: </label>
-          <input type="password" id="pWord" maxlength="12" required />
-        </div>
-        <h3>Profile Picture</h3>
-        <!-- for uploading file/picture -->
-        <div class="regContent fileUpload">
-          <h4>Upload your profile picture here</h4>
-          <input type="file" id="pfp" name="pfp" accept="image/*" required />
-        </div>
-        <br /><br />
-        <!-- buttons -->
-        <div class="regContent button">
-          <button type="submit" id="submitBtn">Submit</button>
-          <button type="reset" id="reset">reset</button>
-        </div>
-        <hr />
-        <!-- log in page redirect -->
-        <div class="regContent logInPage">
-          <p>
-            Already have an account? Log in
-            <a href="index.html">here!</a>
-          </p>
-        </div>
-      </form>
-    </div>
+      </div>
+
+      <br /><br />
+
+      <hr />
+      <!-- log in page redirect -->
+      <div class="regContent logInPage">
+        <p>
+          Already have an account? Log in
+          <a href="index.html">here!</a>
+        </p>
+      </div>
+    </form>
   </body>
 </html>
