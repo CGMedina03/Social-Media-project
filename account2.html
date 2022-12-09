@@ -11,19 +11,24 @@
     <form>
       <!-- container for the credentials -->
       <h3>Log in Info</h3>
-
-      <label for="uName">Username: </label>
-      <input type="text" id="uName" maxlength="20" required />
+      <div class="uName">
+        <label for="uName">Username: </label>
+        <input type="text" id="uName" maxlength="20" required />
+      </div>
       <br /><br />
-      <label for="email">Email: </label>
-      <input type="email" id="email" required />
+      <div class="email">
+        <label for="email">Email: </label>
+        <input type="email" id="email" required />
+      </div>
       <br /><br />
-      <label for="pWord">Password: </label>
-      <input type="password" id="pWord" maxlength="12" required />
+      <div class="pWord">
+        <label for="pWord">Password: </label>
+        <input type="password" id="pWord" maxlength="12" required />
+      </div>
 
       <h3>Profile Picture</h3>
       <!-- for uploading file/picture -->
-      <div class="regContent fileUpload">
+      <div class="fileUpload">
         <h4>Upload your profile picture here</h4>
         <input type="file" id="pfp" name="pfp" accept="image/*" required />
       </div>

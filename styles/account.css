@@ -111,3 +111,15 @@ hr {
   width: 630px;
 }
 /* second page of the registration form */
+.uName {
+  position: absolute;
+}
+.email {
+  position: absolute;
+}
+.pWord {
+  position: absolute;
+}
+.fileUplaod {
+  position: absolute;
+}
