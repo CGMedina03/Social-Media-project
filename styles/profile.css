@@ -190,7 +190,7 @@ form input {
   width: 250px;
   height: 100px;
   border-radius: 5px;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 .trends {
   padding: 5px;
@@ -199,6 +199,7 @@ form input {
   border-radius: 50px;
 }
 .trends-for-you {
+  margin-top: 5px;
   font-size: 20px;
   text-align: center;
   font-weight: bold;
