@@ -81,6 +81,10 @@ b {
 .birthdate {
   grid-area: birthdate;
 }
+#back-to-newsfeed {
+  width: 25px;
+  height: 25px;
+}
 /* parent 2 */
 .parent-2 {
   position: relative;
@@ -142,7 +146,7 @@ b {
 .hours {
   font-weight: bolder;
   position: absolute;
-  left: 700px;
+  left: 660px;
 }
 .extra-button {
   display: flex;
@@ -153,10 +157,10 @@ b {
   border-radius: 5px;
   border: 1px solid black;
 }
-.right-side-bar {
+/* .right-side-bar {
   display: grid;
   grid-template-columns: 250px;
-}
+} */
 /* parent 3 */
 .parent-3 {
   height: 450px;
@@ -210,7 +214,8 @@ form input {
 /* parent 4 */
 .parent-4 {
   box-shadow: 4px 10px 10px grey;
-  margin-top: -350px;
+  position: absolute;
+  width: 250px;
   height: 300px;
 }
 .parent-4 p {
