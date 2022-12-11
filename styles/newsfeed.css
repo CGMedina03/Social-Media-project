@@ -39,7 +39,7 @@ p {
   left: 15px;
 }
 .child-2 {
-  position: fixed;
+  position: absolute;
 }
 .profile-option {
   list-style: none;
@@ -117,15 +117,15 @@ span {
   top: -10px;
 }
 .homepage {
-  max-height: 550px;
+  height: fit-content;
   width: 800px;
   margin-left: -300px;
   margin-top: -250px;
   grid-area: timeline;
-  overflow-y: auto;
+  overflow: hidden;
 }
 .ads {
-  margin-top: 400px;
+  top: 600px;
   position: absolute;
   height: 100px;
   width: 250px;
@@ -141,15 +141,71 @@ span {
   box-shadow: 0 0 15px gray;
   border-radius: 10px;
 }
-
+#profilePic {
+  margin-left: -10px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 100px;
+}
+.username-in-timeline {
+  position: relative;
+  left: 20px;
+}
+.username_At {
+  margin-left: -10px;
+  font-size: 10px;
+  color: blue;
+}
+.align-username {
+  position: absolute;
+  left: 55px;
+  top: 10px;
+}
+.ellipsis {
+  width: 20px;
+  position: absolute;
+  left: 650px;
+}
+.just-username {
+  position: absolute;
+  left: 0px;
+}
+.align-username .username_At {
+  position: absolute;
+  top: 20px;
+  left: 0px;
+}
+.hours {
+  font-weight: bolder;
+  position: absolute;
+  left: 960px;
+}
+.extra-button {
+  display: flex;
+  list-style: none;
+  gap: 200px;
+}
+.reactions {
+  width: 20px;
+  height: 20px;
+}
+.post-picture {
+  border-radius: 5px;
+  border: 1px solid black;
+}
 /* for the friends side */
 .profile-newsfeed {
   width: 50px;
   height: 50px;
   border-radius: 100px;
 }
-tr {
-  border-bottom: 1px solid black;
+.friends {
+  padding: 10px;
+}
+hr {
+  background-color: black;
+  height: 1px;
 }
 a {
   text-decoration: none;
