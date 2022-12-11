@@ -142,65 +142,16 @@ span {
   border-radius: 10px;
 }
 
-.timeline-navBar {
-  border-radius: 5px;
-  width: 800px;
-  height: 30px;
-  padding: 10px;
-  font-size: 25px;
-  transition: transform 200ms;
-}
-/* for the hover animation */
-.timeline-navBar:hover {
-  transform: scale(1.1);
-}
-.timeline-rows {
-  padding-left: 15px;
-  padding-top: 10px;
-  border-bottom: 1px solid black;
-}
-#profilePic {
-  margin-left: -10px;
+/* for the friends side */
+.profile-newsfeed {
   width: 50px;
   height: 50px;
-  border: 1px solid rgb(0, 0, 0);
   border-radius: 100px;
 }
-.username-in-timeline {
-  position: relative;
-  left: 20px;
+tr {
+  border-bottom: 1px solid black;
 }
-.username_At {
-  margin-left: -10px;
-  font-size: 10px;
-  color: blue;
-}
-.align-username {
-  position: absolute;
-  left: 50px;
-  top: 10px;
-}
-.fa-ellipsis {
-  width: 20px;
-  position: relative;
-  left: 560px;
-}
-.align-username .username_At {
-  position: absolute;
-  top: 20px;
-  left: 10px;
-}
-.hours {
-  font-weight: bolder;
-  position: absolute;
-  left: 660px;
-}
-.extra-button {
-  display: flex;
-  list-style: none;
-  gap: 200px;
-}
-.post-picture {
-  border-radius: 5px;
-  border: 1px solid black;
+a {
+  text-decoration: none;
+  color: black;
 }
