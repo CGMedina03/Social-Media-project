@@ -133,7 +133,7 @@ span {
   font-size: 50px;
 }
 /* for the timeline */
-.parent-2 {
+/* .parent-2 {
   position: relative;
   flex: 1 0 20px;
   width: 800px;
@@ -151,7 +151,7 @@ span {
   transition: transform 200ms;
 }
 /* for the hover animation */
-.timeline-navBar:hover {
+/* .timeline-navBar:hover {
   transform: scale(1.1);
 }
 .timeline-rows {
@@ -203,4 +203,4 @@ span {
 .post-picture {
   border-radius: 5px;
   border: 1px solid black;
-}
+} */
