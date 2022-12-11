@@ -194,6 +194,9 @@ span {
   border-radius: 5px;
   border: 1px solid black;
 }
+.post-in-timeline {
+  border-bottom: 1px solid black;
+}
 /* for the friends side */
 .profile-newsfeed {
   width: 50px;
