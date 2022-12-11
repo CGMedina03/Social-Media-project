@@ -132,8 +132,8 @@ b {
 }
 .ellipsis {
   width: 20px;
-  position: relative;
-  left: 560px;
+  position: absolute;
+  left: 650px;
 }
 .align-username .username_At {
   position: absolute;
