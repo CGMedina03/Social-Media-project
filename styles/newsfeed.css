@@ -62,18 +62,20 @@ p {
   height: 50px;
   grid-area: header;
 }
+.icon-tab {
+  width: 35px;
+}
 .navBar ul {
   margin-left: -190px;
-  margin-top: -5px;
+  margin-top: 0px;
   text-align: center;
   list-style: none;
-
   border: none;
 }
 .navBar li {
   display: inline-block;
   padding-left: 150px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 /* for the content of the page */
 .left-side-bar {
@@ -129,4 +131,76 @@ span {
   width: 250px;
   text-align: center;
   font-size: 50px;
+}
+/* for the timeline */
+.parent-2 {
+  position: relative;
+  flex: 1 0 20px;
+  width: 800px;
+  height: fit-content;
+  box-shadow: 0 0 15px gray;
+  border-radius: 10px;
+}
+
+.timeline-navBar {
+  border-radius: 5px;
+  width: 800px;
+  height: 30px;
+  padding: 10px;
+  font-size: 25px;
+  transition: transform 200ms;
+}
+/* for the hover animation */
+.timeline-navBar:hover {
+  transform: scale(1.1);
+}
+.timeline-rows {
+  padding-left: 15px;
+  padding-top: 10px;
+  border-bottom: 1px solid black;
+}
+#profilePic {
+  margin-left: -10px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 100px;
+}
+.username-in-timeline {
+  position: relative;
+  left: 20px;
+}
+.username_At {
+  margin-left: -10px;
+  font-size: 10px;
+  color: blue;
+}
+.align-username {
+  position: absolute;
+  left: 50px;
+  top: 10px;
+}
+.fa-ellipsis {
+  width: 20px;
+  position: relative;
+  left: 560px;
+}
+.align-username .username_At {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+.hours {
+  font-weight: bolder;
+  position: absolute;
+  left: 660px;
+}
+.extra-button {
+  display: flex;
+  list-style: none;
+  gap: 200px;
+}
+.post-picture {
+  border-radius: 5px;
+  border: 1px solid black;
 }

@@ -3,7 +3,7 @@ body {
 }
 .flex-container {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   justify-content: space-between;
 }
 
@@ -88,27 +88,26 @@ b {
 /* parent 2 */
 .parent-2 {
   position: relative;
-  flex: 1 0 20px;
   width: 800px;
   height: fit-content;
   box-shadow: 0 0 15px gray;
   border-radius: 10px;
+  border: 1px solid black;
 }
-
 .timeline-navBar {
-  border-radius: 5px;
-  width: 800px;
+  /* width: 800px;
   height: 30px;
   padding: 10px;
-  font-size: 25px;
+  font-size: 25px; */
   transition: transform 200ms;
+  border: 1px solid black;
 }
 /* for the hover animation */
 .timeline-navBar:hover {
   transform: scale(1.1);
 }
 .timeline-rows {
-  padding-left: 15px;
+  padding-left: 10px;
   padding-top: 10px;
   border-bottom: 1px solid black;
 }
@@ -153,14 +152,13 @@ b {
   list-style: none;
   gap: 200px;
 }
+.reactions {
+  width: 20px;
+}
 .post-picture {
   border-radius: 5px;
   border: 1px solid black;
 }
-/* .right-side-bar {
-  display: grid;
-  grid-template-columns: 250px;
-} */
 /* parent 3 */
 .parent-3 {
   height: 450px;
