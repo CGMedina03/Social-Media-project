@@ -95,26 +95,17 @@ b {
   border: 1px solid black;
 }
 .timeline-navBar {
-  position: relative;
-  border: 1px solid black;
   transition: transform 200ms;
+  border: 1px solid black;
 }
 /* for the hover animation */
 .timeline-navBar:hover {
   transform: scale(1.1);
 }
 .timeline-rows {
+  padding-left: 10px;
   padding-top: 10px;
   border-bottom: 1px solid black;
-}
-.Post {
-  width: auto;
-}
-.Medias {
-  width: auto;
-}
-.Likes-Replies {
-  width: auto;
 }
 #profilePic {
   margin-left: -10px;

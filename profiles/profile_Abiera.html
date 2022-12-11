@@ -8,6 +8,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles/profile.css" />
+    <!-- for icons used -->
+    <script
+      src="https://kit.fontawesome.com/97c7d98d58.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Abiera</title>
   </head>
   <body>
@@ -17,7 +22,7 @@
         <!-- change this image to your liking. Remove the link and paste nyo yung pic na gusto nyong ilagay -->
         <div class="child-1">
           <img
-            src="/extra-assets/abiera_header.jpg"
+            src="file:///C:/Users/rasce/Downloads/wilmer.jpg"
             alt="header"
             width="269px"
             height="150px"
@@ -27,9 +32,12 @@
         <!-- change this image to your liking. Remove the link and paste nyo yung pic na gusto nyong ilagay -->
         <div class="child-2">
           <img
-            src="/extra-assets/abiera_pfp.jpg"
+            src="file:///C:/Users/rasce/Downloads/profile1.jpg"
             alt="profile picture"
-            id="profilePic-1"
+            width="100px"
+            height="100px"
+            id="profilePic"
+            id="profilePic"
           />
           <!-- lagyan nyo to ng username nyo. kahit ano lagay nyo -->
           <span class="username">Merzz_01</span>
@@ -47,12 +55,7 @@
             <div class="sidebar-content birthdate">12/14/2002</div>
             <div class="back-to-newsfeed">
               <a href="/newsfeed.html">
-                <img
-                  src="/extra-assets/icons8-return-100.png"
-                  alt="back to newsfeed"
-                  id="back-to-newsfeed"
-                  title="Back to newsfeed"
-                />
+                <button type="submit">Back to Newsfeed</button>
               </a>
             </div>
           </div>
@@ -63,10 +66,12 @@
       <div class="parent-2">
         <table class="timeline-table">
           <thead>
-            <!-- dont change this. -->
-            <th class="timeline-navBar"></th>
-            <th class="timeline-navBar"></th>
-            <th class="timeline-navBar"></th>
+            <tr>
+              <!-- dont change this. -->
+              <th class="timeline-navBar">Post</th>
+              <th class="timeline-navBar">Medias</th>
+              <th class="timeline-navBar">Likes/Replies</th>
+            </tr>
           </thead>
           <tbody>
             <tr>
@@ -74,20 +79,16 @@
                 <div class="username-in-timeline">
                   <!-- same dapat to ng profile pic nyo -->
                   <img
-                    src="/extra-assets/abiera_pfp.jpg"
+                    src="file:///C:/Users/rasce/Downloads/wilmer.jpg"
                     alt="profile pic"
+                    width="40px"
                     id="profilePic"
                   />
                   <!-- ito din same ng username nyo -->
                   <div class="align-username">
                     <span>Merzz_01</span>
                     <span class="username_At">@Abiera_wilmer</span>
-                    <img
-                      src="/extra-assets/icons8-ellipsis-90.png"
-                      alt="options"
-                      title="Options"
-                      class="fa-ellipsis"
-                    />
+                    <i class="fa-solid fa-ellipsis"></i>
                   </div>
                 </div>
                 <!-- dito lagay lang kayo ng kung ano ano pedeng pic or letters lang -->
@@ -99,30 +100,11 @@
                   <!-- new changes -->
                   <ul class="extra-button">
                     <li>
-                      <img
-                        src="/extra-assets/icons8-speech-bubble-90.png"
-                        alt="comment"
-                        title="Comments"
-                        class="reactions"
-                      />
+                      <i class="fa-regular fa-comment" title="Comment"></i>
                     </li>
 
-                    <li>
-                      <img
-                        src="/extra-assets/icons8-retweet-48.png"
-                        alt="retweet"
-                        title="Retweet"
-                        class="reactions"
-                      />
-                    </li>
-                    <li>
-                      <img
-                        src="/extra-assets/icons8-favorite-90.png"
-                        alt="heart"
-                        title="Heart"
-                        class="reactions"
-                      />
-                    </li>
+                    <li><i class="fa-solid fa-retweet" title="Retweet"></i></li>
+                    <li><i class="fa-regular fa-heart" title="Heart"></i></li>
                     <li>
                       <!-- ito pede nyo ding palitan kung ilang hours, days, or any time -->
                       <span class="hours">12hrs</span>
@@ -135,57 +117,59 @@
               <td class="timeline-rows Post2" colspan="3">
                 <div class="username-in-timeline">
                   <img
-                    src="/extra-assets/abiera_pfp.jpg"
-                    alt="profile pic"
+                    src="/extra-assets/pexels-pixabay-45201.jpgalt="
+                    profile
+                    pic
+                    width="40px"
                     id="profilePic"
                   />
                   <div class="align-username">
                     <span>Merzz_01</span>
                     <span class="username_At">@Abiera_wilmer</span>
-                    <img
-                      src="/extra-assets/icons8-ellipsis-90.png"
-                      alt="options"
-                      title="Options"
-                      class="fa-ellipsis"
-                    />
+                    <i class="fa-solid fa-ellipsis"></i>
                   </div>
                 </div>
                 <div class="post-in-timeline">
                   <p></p>
                   <img
-                    src="/extra-assets/abiera_pfp.jpg"
+                    src="file:///C:/Users/rasce/Downloads/merzz.jpg"
                     alt="picture"
                     width="250px"
                     height="200px"
                     class="post-picture"
                   />
+                  <!-- <img
+                    src="/extra-assets/pexels-pixabay-45201.jpg"
+                    alt="picture"
+                    width="250px"
+                    height="200px"
+                    class="post-picture"
+                  />
+                  <img
+                    src="/extra-assets/pexels-pixabay-45201.jpg"
+                    alt="picture"
+                    width="250px"
+                    height="200px"
+                    class="post-picture"
+                  />
+                  <img
+                    src="/extra-assets/pexels-pixabay-45201.jpg"
+                    alt="picture"
+                    width="250px"
+                    height="200px"
+                    class="post-picture"
+                  /> -->
                   <ul class="extra-button">
                     <li>
-                      <img
-                        src="/extra-assets/icons8-speech-bubble-90.png"
-                        alt="comment"
-                        title="Comments"
-                        class="reactions"
-                      />
+                      <i class="fa-regular fa-comment" title="Comment"> </i>
                     </li>
 
                     <li>
-                      <img
-                        src="/extra-assets/icons8-retweet-48.png"
-                        alt="retweet"
-                        title="Retweet"
-                        class="reactions"
-                      />
+                      <i class="fa-solid fa-retweet" title="Retweet"></i>
                     </li>
                     <li>
-                      <img
-                        src="/extra-assets/icons8-favorite-90.png"
-                        alt="heart"
-                        title="Heart"
-                        class="reactions"
-                      />
+                      <i class="fa-regular fa-heart" title="Heart"></i>
                     </li>
-                    <li></li>
                     <li><span class="hours">12hrs</span></li>
                   </ul>
                 </div>
@@ -196,50 +180,30 @@
               <td class="timeline-rows Post3" colspan="3">
                 <div class="username-in-timeline">
                   <img
-                    src="/extra-assets/abiera_pfp.jpg"
+                    src="file:///C:/Users/rasce/Downloads/merzz.jpg"
                     alt="profile pic"
+                    width="40px"
                     id="profilePic"
                   />
                   <div class="align-username">
                     <span>Merzz</span>
-                    <span class="username_At">@Abiera_wilmer</span>
-                    <img
-                      src="/extra-assets/icons8-ellipsis-90.png"
-                      alt="options"
-                      title="Options"
-                      class="fa-ellipsis"
-                    />
+                    <span class="username_At">@Abiera-wilmer</span>
+                    <i class="fa-solid fa-ellipsis"></i>
                   </div>
                 </div>
                 <div class="post-in-timeline">
                   <p>4+4=8 mali yan lalaki ako eh</p>
                   <ul class="extra-button">
                     <li>
-                      <img
-                        src="/extra-assets/icons8-speech-bubble-90.png"
-                        alt="comment"
-                        title="Comments"
-                        class="reactions"
-                      />
+                      <i class="fa-regular fa-comment" title="Comment"></i>
                     </li>
 
                     <li>
-                      <img
-                        src="/extra-assets/icons8-retweet-48.png"
-                        alt="retweet"
-                        title="Retweet"
-                        class="reactions"
-                      />
+                      <i class="fa-solid fa-retweet" title="Retweet"></i>
                     </li>
                     <li>
-                      <img
-                        src="/extra-assets/icons8-favorite-90.png"
-                        alt="heart"
-                        title="Heart"
-                        class="reactions"
-                      />
+                      <i class="fa-regular fa-heart" title="Heart"></i>
                     </li>
-                    <li></li>
                     <li><span class="hours">12hrs</span></li>
                   </ul>
                 </div>
@@ -250,19 +214,15 @@
               <td class="timeline-rows Post4" colspan="3">
                 <div class="username-in-timeline">
                   <img
-                    src="/extra-assets/abiera_pfp.jpg"
+                    src="file:///C:/Users/rasce/Downloads/merzz.jpg"
                     alt="profile pic"
+                    width="40px"
                     id="profilePic"
                   />
                   <div class="align-username">
                     <span>Merzz_01</span>
                     <span class="username_At">@Abiera_wilmer</span>
-                    <img
-                      src="/extra-assets/icons8-ellipsis-90.png"
-                      alt="options"
-                      title="Options"
-                      class="fa-ellipsis"
-                    />
+                    <i class="fa-solid fa-ellipsis"></i>
                   </div>
                 </div>
                 <div class="post-in-timeline">
@@ -270,31 +230,15 @@
 
                   <ul class="extra-button">
                     <li>
-                      <img
-                        src="/extra-assets/icons8-speech-bubble-90.png"
-                        alt="comment"
-                        title="Comments"
-                        class="reactions"
-                      />
+                      <i class="fa-regular fa-comment" title="Comment"></i>
                     </li>
 
                     <li>
-                      <img
-                        src="/extra-assets/icons8-retweet-48.png"
-                        alt="retweet"
-                        title="Retweet"
-                        class="reactions"
-                      />
+                      <i class="fa-solid fa-retweet" title="Retweet"></i>
                     </li>
                     <li>
-                      <img
-                        src="/extra-assets/icons8-favorite-90.png"
-                        alt="heart"
-                        title="Heart"
-                        class="reactions"
-                      />
+                      <i class="fa-regular fa-heart" title="Heart"></i>
                     </li>
-                    <li></li>
                     <li><span class="hours">12hrs</span></li>
                   </ul>
                 </div>
@@ -305,50 +249,30 @@
               <td class="timeline-rows Post5" colspan="3">
                 <div class="username-in-timeline">
                   <img
-                    src="/extra-assets/abiera_pfp.jpg"
+                    src="file:///C:/Users/rasce/Downloads/merzz.jpg"
                     alt="profile pic"
+                    width="40px"
                     id="profilePic"
                   />
                   <div class="align-username">
                     <span>Merzz_01</span>
                     <span class="username_At">@Abiera_wilmer</span>
-                    <img
-                      src="/extra-assets/icons8-ellipsis-90.png"
-                      alt="options"
-                      title="Options"
-                      class="fa-ellipsis"
-                    />
+                    <i class="fa-solid fa-ellipsis"></i>
                   </div>
                 </div>
                 <div class="post-in-timeline">
                   <p>open your mind before your mounth</p>
                   <ul class="extra-button">
                     <li>
-                      <img
-                        src="/extra-assets/icons8-speech-bubble-90.png"
-                        alt="comment"
-                        title="Comments"
-                        class="reactions"
-                      />
+                      <i class="fa-regular fa-comment" title="Comment"></i>
                     </li>
 
                     <li>
-                      <img
-                        src="/extra-assets/icons8-retweet-48.png"
-                        alt="retweet"
-                        title="Retweet"
-                        class="reactions"
-                      />
+                      <i class="fa-solid fa-retweet" title="Retweet"></i>
                     </li>
                     <li>
-                      <img
-                        src="/extra-assets/icons8-favorite-90.png"
-                        alt="heart"
-                        title="Heart"
-                        class="reactions"
-                      />
+                      <i class="fa-regular fa-heart" title="Heart"></i>
                     </li>
-                    <li></li>
                     <li><span class="hours">12hrs</span></li>
                   </ul>
                 </div>
@@ -364,26 +288,16 @@
         <div class="parent-3">
           <div class="search-box">
             <form>
-              <img
-                src="/extra-assets/icons8-search-90.png"
-                alt="Search"
-                title="Search"
-                class="search-option"
-              />
+              <i class="fa-solid fa-magnifying-glass"></i>
               <input type="text" placeholder="Search" />
-              <img
-                src="/extra-assets/icons8-support-90.png"
-                alt="Settings"
-                title="Settings"
-                class="search-option"
-              />
+              <i class="fa-solid fa-gear"></i>
             </form>
             <div class="table-search">
               <table>
                 <thead>
                   <tr>
                     <img
-                      src="/extra-assets/news-3-1610103138_clipdrop-enhance.jpg"
+                      src="/extra-assets/pexels-stein-egil-liland-1933318.jpg"
                       alt="news header"
                       class="trend-header"
                     />
