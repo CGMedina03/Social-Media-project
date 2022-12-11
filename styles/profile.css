@@ -92,11 +92,13 @@ b {
   height: fit-content;
   box-shadow: 0 0 15px gray;
   border-radius: 10px;
-  border: 1px solid black;
 }
 .timeline-navBar {
+  width: 800px;
+  height: 30px;
+  padding: 10px;
+  font-size: 25px;
   transition: transform 200ms;
-  border: 1px solid black;
 }
 /* for the hover animation */
 .timeline-navBar:hover {
@@ -128,7 +130,7 @@ b {
   left: 50px;
   top: 10px;
 }
-.fa-ellipsis {
+.ellipsis {
   width: 20px;
   position: relative;
   left: 560px;
@@ -150,6 +152,7 @@ b {
 }
 .reactions {
   width: 20px;
+  height: 20px;
 }
 .post-picture {
   border-radius: 5px;
