@@ -95,8 +95,7 @@ b {
   border: 1px solid black;
 }
 .timeline-navBar {
-  width: 500px;
-  height: 30px;
+  position: relative;
   border: 1px solid black;
   transition: transform 200ms;
 }
@@ -105,9 +104,17 @@ b {
   transform: scale(1.1);
 }
 .timeline-rows {
-  margin-left: 10px;
   padding-top: 10px;
   border-bottom: 1px solid black;
+}
+.Post {
+  width: auto;
+}
+.Medias {
+  width: auto;
+}
+.Likes-Replies {
+  width: auto;
 }
 #profilePic {
   margin-left: -10px;
